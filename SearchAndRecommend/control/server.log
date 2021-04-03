@@ -1,0 +1,420 @@
+nohup: ignoring input
+ * Serving Flask app "SearchServer" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8881/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 867-981-712
+221.224.112.50 - - [29/Mar/2021 17:15:35] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:39] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:40] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:42] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:44] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:45] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:46] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:47] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:49] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:49] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:51] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:52] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:54] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:55] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:15:58] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:00] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:01] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:03] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:03] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:06] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:07] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:09] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:10] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:11] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:12] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:13] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:15] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:15] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:17] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:19] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:20] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:21] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:23] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['214799']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211101']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213299']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213015']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211207']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213199']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211118']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211199']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['212401']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['219999']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['214099']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211102']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211120']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213123']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211302']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211399']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213001']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}221.224.112.50 - - [29/Mar/2021 17:16:23] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:24] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:25] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:26] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:27] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:28] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:30] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 17:16:30] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:49:59] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:04] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:06] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:07] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:34] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:36] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:38] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:43] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:51] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:52] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:54] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:55] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:50:56] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:51:00] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:51:01] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:51:03] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:57:54] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:57:55] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [29/Mar/2021 19:57:56] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+111.7.96.163 - - [29/Mar/2021 20:02:23] code 400, message Bad request version ('\x00/\x00')
+111.7.96.163 - - [29/Mar/2021 20:02:23] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
+111.7.96.163 - - [29/Mar/2021 20:02:24] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+111.7.96.163 - - [29/Mar/2021 20:02:24] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
+111.7.96.163 - - [29/Mar/2021 20:02:25] "[33mGET / HTTP/1.0[0m" 404 -
+111.7.96.163 - - [29/Mar/2021 20:02:26] "[33mHEAD / HTTP/1.1[0m" 404 -
+111.7.96.163 - - [29/Mar/2021 20:02:26] "[33mGET / HTTP/1.1[0m" 404 -
+111.7.96.163 - - [29/Mar/2021 20:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+161.189.192.94 - - [30/Mar/2021 01:34:02] code 400, message Bad request syntax ('333766643833656338616434363333643963363962386536653538383937393235613033653338636434')
+161.189.192.94 - - [30/Mar/2021 01:34:02] "[35m[1m333766643833656338616434363333643963363962386536653538383937393235613033653338636434[0m" HTTPStatus.BAD_REQUEST -
+202.112.238.66 - - [30/Mar/2021 08:29:09] "[33mGET / HTTP/1.0[0m" 404 -
+202.112.238.66 - - [30/Mar/2021 08:29:09] "[33mGET / HTTP/1.1[0m" 404 -
+221.224.112.50 - - [30/Mar/2021 09:10:15] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 09:10:18] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+101.132.70.61 - - [30/Mar/2021 10:00:32] code 400, message Bad request version ('&\x97½IsLÓy\x00\x00\x16À\x14\x005À\x13\x00/À,À+À0\x00\x9dÀ/\x00\x9c\x00')
+101.132.70.61 - - [30/Mar/2021 10:00:32] "[35m[1m   `b@$áÈ:ÿãå¯[îCBï³&½IsLÓy  À 5À /À,À+À0 À/  [0m" HTTPStatus.BAD_REQUEST -
+221.224.112.50 - - [30/Mar/2021 15:37:19] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:24] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:29] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:31] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213131']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211299']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211121']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['java'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['java工程师'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+已有此关键词
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': 'java工程师'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['java工程师'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['java'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+已有此关键词
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': 'java软件开发'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['java软件开发'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['java'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+调用缓存
+{'suggest': {'my-suggest': {'prefix': ['java工程师'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['java'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': 'JAVA程序员'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['JAVA程序员'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['JAVA'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': 'JAVA'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-29', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['214799']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+{'suggest': {'my-suggest': {'prefix': ['人事'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+已有此关键词
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-30', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '人事行政'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['a'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['你'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-30', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '你'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['你'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['张'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}221.224.112.50 - - [30/Mar/2021 15:37:36] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:43] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:45] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:37:47] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [30/Mar/2021 15:39:09] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [30/Mar/2021 16:20:25] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [31/Mar/2021 14:56:44] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+185.167.97.229 - - [31/Mar/2021 16:13:56] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x82¿æëþEÕ÷')
+185.167.97.229 - - [31/Mar/2021 16:13:56] "[35m[1m {  w¿æëþEÕ÷[0m" HTTPStatus.BAD_REQUEST -
+221.224.112.50 - - [31/Mar/2021 20:56:28] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+111.7.96.171 - - [01/Apr/2021 05:34:03] code 400, message Bad request version ('\x00/\x00')
+111.7.96.171 - - [01/Apr/2021 05:34:03] "[35m[1m  i  eU§ärandom1random2random3random4   / [0m" HTTPStatus.BAD_REQUEST -
+111.7.96.171 - - [01/Apr/2021 05:34:03] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+111.7.96.171 - - [01/Apr/2021 05:34:03] "[35m[1m  S  O ?G×÷º,îê²`~ó ý{¹ÕÈwæÄÛ<=Ûoïn  (   [0m" HTTPStatus.BAD_REQUEST -
+111.7.96.171 - - [01/Apr/2021 05:34:03] "[33mGET / HTTP/1.0[0m" 404 -
+111.7.96.171 - - [01/Apr/2021 05:42:13] "[33mHEAD / HTTP/1.1[0m" 404 -
+111.7.96.171 - - [01/Apr/2021 05:42:13] "[33mGET / HTTP/1.1[0m" 404 -
+111.7.96.171 - - [01/Apr/2021 05:42:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+221.224.112.50 - - [01/Apr/2021 14:04:04] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:05] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:07] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:10] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:17] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:20] "[37mPOST /completion/result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:04:21] "[35m[1mPOST /search/pos-result HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/iotlab/Search/SearchAndRecommend/control/SearchServer.py", line 30, in pos_service
+    result=model.S_Job(data)
+  File "/home/iotlab/Search/SearchAndRecommend/service/search.py", line 81, in S_Job
+    es.update_by_query(index='keyword', doc_type='key_info', body=update_keyword)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 1978, in update_by_query
+    body=body,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 392, in perform_request
+    raise e
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 365, in perform_request
+    timeout=timeout,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/base.py", line 301, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.AuthorizationException: AuthorizationException(403, '{"took":1,"timed_out":false,"total":1,"updated":0,"deleted":0,"batches":1,"version_conflicts":0,"noops":0,"retries":{"bulk":0,"search":0},"throttled_millis":0,"requests_per_second":-1.0,"throttled_until_millis":0,"failures":[{"index":"keyword","type":"key_info","id":"tQUS-3cBpOF4N_9ZFgLn","cause":{"type":"cluster_block_exception","reason":"blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];"},"status":403}]}')
+221.224.112.50 - - [01/Apr/2021 14:06:45] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 14:06:46] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+101.132.113.224 - - [01/Apr/2021 15:50:54] "[33mGET / HTTP/1.1[0m" 404 -
+47.98.104.239 - - [01/Apr/2021 16:13:16] code 400, message Bad request syntax ('\x16\x03\x03\x00\x88\x01\x00\x00\x84\x03\x03`e\x80\x9c\x90¤\x02¡ç÷ùp¾\x94,-°rð\x7fLCHû\x83^¡àÔ>!K\x00\x00\x16À\x14\x005À\x13\x00/À,À+À0\x00\x9dÀ/\x00\x9c\x00')
+47.98.104.239 - - [01/Apr/2021 16:13:16] "[35m[1m   `e¤¡ç÷ùp¾,-°rðLCHû^¡àÔ>!K  À 5À /À,À+À0 À/  [0m" HTTPStatus.BAD_REQUEST -
+221.224.112.50 - - [01/Apr/2021 17:23:58] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [01/Apr/2021 21:58:18] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+89.248.165.31 - - [02/Apr/2021 02:58:37] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+89.248.165.31 - - [02/Apr/2021 02:58:37] "[35m[1m  à          [0m" HTTPStatus.BAD_REQUEST -
+185.167.98.154 - - [02/Apr/2021 03:47:16] code 400, message Bad request syntax ('\x16\x03\x01\x00u\x01\x00\x00q\x03\x03')
+185.167.98.154 - - [02/Apr/2021 03:47:16] "[35m[1m u  q[0m" HTTPStatus.BAD_REQUEST -
+162.142.125.53 - - [02/Apr/2021 04:16:54] code 400, message Bad request version ('À\x14À')
+162.142.125.53 - - [02/Apr/2021 04:16:54] "[35m[1m {  we	ÿÑ-×; Îñ.êb cãNà)ÚMç-ç²  À/À+ÀÀÀÀ	ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+162.142.125.53 - - [02/Apr/2021 04:16:56] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.53 - - [02/Apr/2021 04:16:57] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.128 - - [02/Apr/2021 04:33:54] "[33mGET / HTTP/1.1[0m" 404 -
+94.232.42.169 - - [02/Apr/2021 09:30:05] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+94.232.42.169 - - [02/Apr/2021 09:30:05] "[35m[1m  /*à     Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+221.224.112.50 - - [02/Apr/2021 10:40:18] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [02/Apr/2021 10:42:02] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+221.224.112.50 - - [02/Apr/2021 10:47:27] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET / HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /explicit_not_exist_path HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /admin/ HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /login/img/product_logo.png HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /images/ofbiz.ico HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /attachment/logo/logo-default.png HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /r/cms/www/red/img/prompt.jpg HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /r/cms/www/red/style/swiper.min.js HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /web/static/src/img/favicon.ico HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /phpMyAdmin/ HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+47.117.72.199 - - [02/Apr/2021 13:38:51] "[33mGET /wcm/ HTTP/1.1[0m" 404 -
+47.92.5.11 - - [02/Apr/2021 14:02:49] code 400, message Bad request version ('\x14V\x00\x00\x16À\x14\x005À\x13\x00/À,À+À0\x00\x9dÀ/\x00\x9c\x00')
+47.92.5.11 - - [02/Apr/2021 14:02:49] "[35m[1m   `f³;1þCjSè~M]m½úbÀoô V  À 5À /À,À+À0 À/  [0m" HTTPStatus.BAD_REQUEST -
+116.236.75.215 - - [02/Apr/2021 20:55:47] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 20:56:07] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 20:56:38] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 20:56:47] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+
+{'suggest': {'my-suggest': {'prefix': ['你'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['张'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+已有此关键词
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-30', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '张家港友诚新能源科技股份有限公司'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['张'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+新插入关键词
+5000 8000
+{'size': 5, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-30', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': 'java开发'}}, {'range': {'JobPayMin': {'gte': 5, 'lt': 8}}}], 'must_not': [{'match': {'JobPayMax': '0'}}], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-31', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-03-31', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['211101']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['ceshi'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['cesh'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['测试'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-01', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '测试'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+{'suggest': {'my-suggest': {'prefix': ['测试'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+{'suggest': {'my-suggest': {'prefix': ['天堂路'], 'completion': {'field': 'KeyName', 'analyzer': 'ik_max_word', 'skip_duplicates': 'true', 'size': 10000}}}}
+无缓存
+已有此关键词
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-01', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-01', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-01', 'lte': '2100-01-01'}}}, {'terms': {'JobType': ['213001']}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 10, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 5, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '中国制造'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 5, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '中国制造，未来可期'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+无缓存
+{'size': 5, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '五星红旗我为你骄傲China'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}
+调用缓存
+无缓存
+{'size': 5, 'from': 0, 'query': {'bool': {'must': [{'range': {'JobEndDate': {'gte': '2021-04-02', 'lte': '2100-01-01'}}}, {'query_string': {'fields': ['JobName^10', 'ComName^0.5'], 'query': '中国制造，未来可期china'}}], 'must_not': [], 'should': []}}, 'sort': [{'OrderTime': {'order': 'desc'}}, {'_score': {'order': 'desc'}}, {'JobTopEndDate': {'order': 'desc'}}], 'aggs': {'group_by_jobtype': {'terms': {'field': 'JobType', 'size': 20}, 'aggs': {'group_by_jobtype_name': {'terms': {'field': 'JobTypeName'}}}}}}116.236.75.215 - - [02/Apr/2021 20:57:44] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 20:59:31] "[35m[1mPOST /search/pos-result HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/iotlab/Search/SearchAndRecommend/control/SearchServer.py", line 30, in pos_service
+    result=model.S_Job(data)
+  File "/home/iotlab/Search/SearchAndRecommend/service/search.py", line 68, in S_Job
+    es.index(index='keyword', doc_type='key_info', body=insert_keyword)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 396, in index
+    body=body,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 392, in perform_request
+    raise e
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 365, in perform_request
+    timeout=timeout,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/base.py", line 301, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.AuthorizationException: AuthorizationException(403, 'cluster_block_exception', 'blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];')
+116.236.75.215 - - [02/Apr/2021 20:59:35] "[35m[1mPOST /search/pos-result HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/iotlab/Search/SearchAndRecommend/control/SearchServer.py", line 30, in pos_service
+    result=model.S_Job(data)
+  File "/home/iotlab/Search/SearchAndRecommend/service/search.py", line 68, in S_Job
+    es.index(index='keyword', doc_type='key_info', body=insert_keyword)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 396, in index
+    body=body,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 392, in perform_request
+    raise e
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/transport.py", line 365, in perform_request
+    timeout=timeout,
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 269, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/root/anaconda3/envs/kunshan/lib/python3.7/site-packages/elasticsearch/connection/base.py", line 301, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.AuthorizationException: AuthorizationException(403, 'cluster_block_exception', 'blocked by: [FORBIDDEN/12/index read-only / allow delete (api)];')
+116.236.75.215 - - [02/Apr/2021 21:00:30] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 21:03:27] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -
+116.236.75.215 - - [02/Apr/2021 21:04:54] "[37mPOST /search/pos-result HTTP/1.1[0m" 200 -

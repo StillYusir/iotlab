@@ -1,0 +1,552 @@
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 979 (char 978)
+2021-01-27 16:08:10:上面错误是源文件中的第43796行
+
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 777 (char 776)
+2021-01-27 16:10:15:上面错误是源文件中的第2960行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 710 (char 709)
+2021-01-27 16:10:15:上面错误是源文件中的第3119行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 679 (char 678)
+2021-01-27 16:10:15:上面错误是源文件中的第3145行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 688 (char 687)
+2021-01-27 16:10:15:上面错误是源文件中的第3189行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 717 (char 716)
+2021-01-27 16:10:18:上面错误是源文件中的第7668行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 711 (char 710)
+2021-01-27 16:10:19:上面错误是源文件中的第8645行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 720 (char 719)
+2021-01-27 16:10:20:上面错误是源文件中的第10387行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 1058 (char 1057)
+2021-01-27 16:10:23:上面错误是源文件中的第15646行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 675 (char 674)
+2021-01-27 16:10:24:上面错误是源文件中的第16988行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 745 (char 744)
+2021-01-27 16:10:24:上面错误是源文件中的第16996行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 907 (char 906)
+2021-01-27 16:10:30:上面错误是源文件中的第27711行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 694 (char 693)
+2021-01-27 16:10:40:上面错误是源文件中的第42915行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 908 (char 907)
+2021-01-27 16:10:40:上面错误是源文件中的第43219行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 979 (char 978)
+2021-01-27 16:10:40:上面错误是源文件中的第43796行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 660 (char 659)
+2021-01-27 16:10:41:上面错误是源文件中的第44082行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 646 (char 645)
+2021-01-27 16:10:42:上面错误是源文件中的第46681行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 692 (char 691)
+2021-01-27 16:10:47:上面错误是源文件中的第54813行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 700 (char 699)
+2021-01-27 16:10:48:上面错误是源文件中的第55902行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 760 (char 759)
+2021-01-27 16:10:53:上面错误是源文件中的第63634行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 657 (char 656)
+2021-01-27 16:10:53:上面错误是源文件中的第63758行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 692 (char 691)
+2021-01-27 16:10:53:上面错误是源文件中的第64935行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 654 (char 653)
+2021-01-27 16:10:56:上面错误是源文件中的第69020行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 1074 (char 1073)
+2021-01-27 16:10:58:上面错误是源文件中的第72676行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 665 (char 664)
+2021-01-27 16:10:59:上面错误是源文件中的第73479行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 990 (char 989)
+2021-01-27 16:11:00:上面错误是源文件中的第75045行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 1371 (char 1370)
+2021-01-27 16:11:00:上面错误是源文件中的第75997行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 720 (char 719)
+2021-01-27 16:11:00:上面错误是源文件中的第76001行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 679 (char 678)
+2021-01-27 16:11:02:上面错误是源文件中的第78998行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 717 (char 716)
+2021-01-27 16:11:09:上面错误是源文件中的第89787行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 966 (char 965)
+2021-01-27 16:11:09:上面错误是源文件中的第89847行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 915 (char 914)
+2021-01-27 16:11:09:上面错误是源文件中的第91006行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 752 (char 751)
+2021-01-27 16:11:10:上面错误是源文件中的第91779行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 789 (char 788)
+2021-01-27 16:11:10:上面错误是源文件中的第91805行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 653 (char 652)
+2021-01-27 16:11:14:上面错误是源文件中的第97648行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 1092 (char 1091)
+2021-01-27 16:11:17:上面错误是源文件中的第103449行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 940 (char 939)
+2021-01-27 16:11:17:上面错误是源文件中的第103966行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 918 (char 917)
+2021-01-27 16:11:29:上面错误是源文件中的第122288行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 648 (char 647)
+2021-01-27 16:11:34:上面错误是源文件中的第131385行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 629 (char 628)
+2021-01-27 16:11:35:上面错误是源文件中的第132150行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 718 (char 717)
+2021-01-27 16:11:35:上面错误是源文件中的第132946行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 1074 (char 1073)
+2021-01-27 16:11:38:上面错误是源文件中的第137783行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 689 (char 688)
+2021-01-27 16:11:41:上面错误是源文件中的第141819行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 2009 (char 2008)
+2021-01-27 16:11:45:上面错误是源文件中的第148552行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 852 (char 851)
+2021-01-27 16:11:49:上面错误是源文件中的第155495行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 657 (char 656)
+2021-01-27 16:11:54:上面错误是源文件中的第163243行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 878 (char 877)
+2021-01-27 16:11:59:上面错误是源文件中的第171674行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Invalid \escape: line 1 column 660 (char 659)
+2021-01-27 16:12:00:上面错误是源文件中的第173687行
+
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 28, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 979 (char 978)
+2021-01-28 14:49:58:上面错误是源文件中的第43796行
+Traceback (most recent call last):
+  File "G:/project/iotlab-dev/iotlab-dev/Search/SearchAndRecommend/APScheduler/extract_static_small_classify_positons.py", line 27, in tiqu_small_class_index
+    line = json.loads(line)
+  File "C:\Users\Administrator\anaconda3\lib\json\__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\Administrator\anaconda3\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 979 (char 978)
+2021-01-28 15:59:11:上面错误是源文件中的第43796行

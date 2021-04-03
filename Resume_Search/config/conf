@@ -1,0 +1,13 @@
+# sql server 默认配置
+host_sql=139.196.146.45
+user_sql=SA
+port_sql=1433
+pwd_sql=Iotlab2019@217
+
+# es 默认配置(本地)
+#host_es=192.168.200.130
+#port_es=9500
+
+# es 服务器配置
+host_es=139.196.146.45
+port_es=8769

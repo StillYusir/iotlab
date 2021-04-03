@@ -1,0 +1,82 @@
+2021-01-28 10:56:53 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 10:56:53 base.py[line:881] INFO Added job "tiqu_small_class_index" to job store "mongo"
+2021-01-28 10:56:53 base.py[line:166] INFO Scheduler started
+
+2021-01-28 11:01:09 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:01:40 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:01:40 base.py[line:881] INFO Added job "tiqu_small_class_index" to job store "mongo"
+2021-01-28 11:01:40 base.py[line:166] INFO Scheduler started
+
+2021-01-28 11:25:36 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:25:36 base.py[line:881] INFO Added job "ttest_time" to job store "mongo"
+2021-01-28 11:25:36 base.py[line:166] INFO Scheduler started
+2021-01-28 11:27:57 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:28:13 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:28:13 base.py[line:881] INFO Added job "ttest_time" to job store "mongo"
+2021-01-28 11:28:13 base.py[line:166] INFO Scheduler started
+2021-01-28 11:30:39 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+
+2021-01-28 11:30:51 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:30:51 base.py[line:881] INFO Added job "ttest_time" to job store "mongo"
+2021-01-28 11:30:51 base.py[line:166] INFO Scheduler started
+
+2021-01-28 11:30:57 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:30:57 UTC)" (scheduled at 2021-01-28 03:30:54.750486+00:00)
+2021-01-28 11:30:57 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:30:57 UTC)" executed successfully
+2021-01-28 11:30:57 SchedulerConfig.py[line:55] INFO The job worked
+
+2021-01-28 11:30:57 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:00 UTC)" (scheduled at 2021-01-28 03:30:57.750486+00:00)
+2021-01-28 11:30:57 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:00 UTC)" executed successfully
+2021-01-28 11:30:57 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:00 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:03 UTC)" (scheduled at 2021-01-28 03:31:00.750486+00:00)
+2021-01-28 11:31:00 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:03 UTC)" executed successfully
+2021-01-28 11:31:00 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:03 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:06 UTC)" (scheduled at 2021-01-28 03:31:03.750486+00:00)
+2021-01-28 11:31:03 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:06 UTC)" executed successfully
+2021-01-28 11:31:03 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:06 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:09 UTC)" (scheduled at 2021-01-28 03:31:06.750486+00:00)
+2021-01-28 11:31:06 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:09 UTC)" executed successfully
+2021-01-28 11:31:06 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:09 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:12 UTC)" (scheduled at 2021-01-28 03:31:09.750486+00:00)
+2021-01-28 11:31:09 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:12 UTC)" executed successfully
+2021-01-28 11:31:09 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:12 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:15 UTC)" (scheduled at 2021-01-28 03:31:12.750486+00:00)
+2021-01-28 11:31:12 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:15 UTC)" executed successfully
+2021-01-28 11:31:12 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:15 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:18 UTC)" (scheduled at 2021-01-28 03:31:15.750486+00:00)
+2021-01-28 11:31:15 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:18 UTC)" executed successfully
+2021-01-28 11:31:15 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:18 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:21 UTC)" (scheduled at 2021-01-28 03:31:18.750486+00:00)
+2021-01-28 11:31:18 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:21 UTC)" executed successfully
+2021-01-28 11:31:18 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:21 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:24 UTC)" (scheduled at 2021-01-28 03:31:21.750486+00:00)
+2021-01-28 11:31:21 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:24 UTC)" executed successfully
+2021-01-28 11:31:21 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:24 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:27 UTC)" (scheduled at 2021-01-28 03:31:24.750486+00:00)
+2021-01-28 11:31:24 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:27 UTC)" executed successfully
+2021-01-28 11:31:24 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:27 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:30 UTC)" (scheduled at 2021-01-28 03:31:27.750486+00:00)
+2021-01-28 11:31:27 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:30 UTC)" executed successfully
+2021-01-28 11:31:27 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:30 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:33 UTC)" (scheduled at 2021-01-28 03:31:30.750486+00:00)
+2021-01-28 11:31:30 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:33 UTC)" executed successfully
+2021-01-28 11:31:30 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:33 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:36 UTC)" (scheduled at 2021-01-28 03:31:33.750486+00:00)
+2021-01-28 11:31:33 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:36 UTC)" executed successfully
+2021-01-28 11:31:33 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:36 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:39 UTC)" (scheduled at 2021-01-28 03:31:36.750486+00:00)
+2021-01-28 11:31:36 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:39 UTC)" executed successfully
+2021-01-28 11:31:36 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:39 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:42 UTC)" (scheduled at 2021-01-28 03:31:39.750486+00:00)
+2021-01-28 11:31:39 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:42 UTC)" executed successfully
+2021-01-28 11:31:39 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:31:42 base.py[line:123] INFO Running job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:45 UTC)" (scheduled at 2021-01-28 03:31:42.750486+00:00)
+2021-01-28 11:31:42 base.py[line:144] INFO Job "ttest_time (trigger: interval[0:00:03], next run at: 2021-01-28 03:31:45 UTC)" executed successfully
+2021-01-28 11:31:42 SchedulerConfig.py[line:55] INFO The job worked
+2021-01-28 11:41:40 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:41:40 base.py[line:881] INFO Added job "ttest_time" to job store "mongo"
+2021-01-28 11:41:40 base.py[line:166] INFO Scheduler started
+2021-01-28 11:43:44 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:47:06 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2021-01-28 11:47:06 base.py[line:881] INFO Added job "ttest_time" to job store "mongo"
+2021-01-28 11:47:06 base.py[line:166] INFO Scheduler started
+2021-01-28 11:48:59 base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
